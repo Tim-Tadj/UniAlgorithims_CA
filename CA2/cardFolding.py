@@ -76,7 +76,7 @@ def punchcard(punchcard):
 
 start_time = time.time()
 
-arraytest = punchcard("punchcardtest.txt") #input punchcard file (.txt) formatted correctly (has to be in same folder as cardFolding.py)
+arraytest = punchcard("punchcard.txt") #input punchcard file (.txt) formatted correctly (has to be in same folder as cardFolding.py)
 
 algorithim_time = time.time()-start_time
 
