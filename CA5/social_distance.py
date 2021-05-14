@@ -21,8 +21,7 @@ def find_solution(people):
 
     secondBestDistances.sort()#sort all the second smallest distances
 
-    solution = secondBestDistances[0] #finds the best out of all the second smallest distances
-    return solution
+    return secondBestDistances[0] #finds the best out of all the second smallest distances
     
             
 
